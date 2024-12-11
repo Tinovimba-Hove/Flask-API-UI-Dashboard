@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime Data</title>
+    <!-- Include Plotly JS library -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h2>Crime Data Visualization</h2>
+    
+    {% if chart_html %}
+        <!-- Render the Plotly chart directly from the HTML component -->
+        <div>{{ chart_html | safe }}</div>
+    {% else %}
+        <p>No chart to display.</p>
+    {% endif %}
+
+    <br>
+    <a href="/">Back To Dashboard</a><br>
+
+</body>
+</html>

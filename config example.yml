@@ -1,0 +1,9 @@
+db:
+  host: 'your-host-name'
+  user: 'your-user-name'
+  passwd: 'your-password'
+  db: 'your-database-name'
+  port: port-number
+
+
+

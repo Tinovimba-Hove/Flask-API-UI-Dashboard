@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2> Welcome to the Crime Data Dashboard</h2>
+    <h2>What would you like to visualize today?:</h2>
+    <br>
+	<a href="/visualize_crime_category_per_city">Crime Category Per City</a><br>
+	<a href="/visualize_crime_over_years">Crime Over Years</a><br>
+	<a href="/visualize_crime_per_month">Crime Per Month</a><br>
+    <a href="/visualize_crime_by_date_range">Crime By Date Range</a><br>
+	<a href="/visualize_crime_comparison">Crime Comparison By City and Year</a><br>
+	<a href="/visualize_crime_statistics_by_category">Crime Statistics By Category</a><br>
+	<a href="/visualize_crime_count_by_day_of_week">Crime Count By Day Of Week</a><br>
+	<a href="visualize_crime_details_by_city_category">Crime Details By City Sub-Category</a><br>
+	<a href="/visualize_crime_location_density_by_city">Crime Location Density By City (Chicago)</a><br>
+    <a href="/visualize_geocode">Reverse Geocode</a><br>
+	
+{% endblock %}
