@@ -1,4 +1,4 @@
-# Flask-API-UI-Dashboard
+# Rest-API-UI-Dashboard
 
 # Crime Data API and Visualization Dashboard
 
